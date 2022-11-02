@@ -12,11 +12,11 @@
   text-align: right;
 }
 
-#header-img {
+.header__image {
   width: 100%;
 }
 
-.more-inf {
+.header__more-inf {
   font-family: fantasy, cursive;
 }
 
@@ -27,7 +27,8 @@
   }
 
 }
-.centered-main-page-element {
+
+.main-page {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -39,7 +40,7 @@
   flex-grow: 1;
 }
 
-.task-row-wrapper {
+.top-section__task-row-wrapper {
   display: flex;
 }
 
@@ -74,7 +75,7 @@ button:hover {
 
 /* Heading */
 h3,
-label[for="new-task"] {
+label[for="top-section__new-task"] {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -102,12 +103,12 @@ input[type="text"]:focus {
 }
 
 /* New Task */
-label[for="new-task"] {
+label[for="top-section__new-task"] {
   display: block;
   margin: 0 0 20px;
 }
 
-#new-task {
+#top-section__new-task {
   width: 318px;
 }
 
